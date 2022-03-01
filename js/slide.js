@@ -79,7 +79,6 @@ export default class Slide {
       const position = this.slidePosition(element);
       return { position, element };
     });
-    console.log(this.slideArray)
   }
 
   slidesIndexNav(index) {
